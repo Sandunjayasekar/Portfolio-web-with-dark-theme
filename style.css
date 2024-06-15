@@ -69,3 +69,24 @@ nav ul li a:hover {
 span {
     color: #ff4321;
 }
+
+.imgBox {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.imgBox img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s;
+}
+
+.imgBox:hover .back-img {
+    bottom: 40px;
+}
