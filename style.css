@@ -94,3 +94,18 @@ span {
 .imgBox:hover .main-img {
     left: 54%;
 }
+
+.socialLinks {
+    margin-left: 8%;
+    margin-top: 50px;
+}
+
+.socialLinks a {
+    font-size: 30px;
+    color: #212121;
+    margin-right: 20px;
+}
+
+.socialLinks a:hover {
+    color: #ff4321;
+}
